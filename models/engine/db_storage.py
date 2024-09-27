@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
- contains the class DBStorage
+Contains the class DBStorage
 """
 
 import models
@@ -26,7 +26,7 @@ class DBStorage:
     __session = None
 
     def __init__(self):
-        """instantiate a DBStorage object"""
+        """Instantiate a DBStorage object"""
         HBNB_MYSQL_USER = getenv('HBNB_MYSQL_USER')
         HBNB_MYSQL_PWD = getenv('HBNB_MYSQL_PWD')
         HBNB_MYSQL_HOST = getenv('HBNB_MYSQL_HOST')

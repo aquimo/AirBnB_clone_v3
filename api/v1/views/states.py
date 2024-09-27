@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' New view for State objects'''
+''' new view for State objects'''
 
 from flask import Flask
 from flask import Flask, abort
